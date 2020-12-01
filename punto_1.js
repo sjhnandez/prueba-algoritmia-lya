@@ -47,4 +47,6 @@ while (i < arr.length) {
   }
   i++;
 }
-console.log("Largest " + length + " digit sub-number: " + largestQueue.join(""));
+console.log(
+  "Largest " + length + " digit sub-number: " + largestQueue.join("")
+);
